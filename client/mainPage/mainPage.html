@@ -1,0 +1,45 @@
+<template name="mainPage">
+  <div id="mainPage" class="page">
+
+    <h1 id="projectTitle">HIPAA Policy Generator</h1>
+    <h4>Whitepapers Policies and Procedures for Medical, Clinical, and Healthcare Apps</h4>
+
+    <h2 id="whatIsSection">Who are These Policies For?</h2>
+    <hr>
+    <p>
+      Any company creating an application for healthcare, biomedical, or clinical purposes that might be subject to the Health Information Portability and Privacy Act.
+    </p>
+
+    <h2 id="whatIsSection">Why Policies and Procedures?</h2>
+    <hr>
+    <p>
+      HIPAA is a lot more than a set of technologies.  Nearly half of HIPAA is about the policies and procedures that a company uses.  So, if we want to encourage Meteor as a framework for healthcare, clinical, and biomedical apps; it's not enough to simply create packages for user accounts, roles, audit logs, and disk security.  We also need to get the right policies and procedures into the hands of developers and startups.
+    </p>
+
+    <h2 id="whatIsSection">Where Did These Policies Come From?</h2>
+    <hr>
+    <p>
+      HIPAA is a lot more than a set of technologies.  Nearly half of HIPAA is about the policies and procedures that a company uses.  So, if we want to encourage Meteor as a framework for healthcare, clinical, and biomedical apps; it's not enough to simply create packages for user accounts, roles, audit logs, and disk security.  We also need to get the right policies and procedures into the hands of developers and startups.
+    </p>
+
+    <h2 id="whatIsSection">Lets Generate Some Policies</h2>
+    <hr>
+    <p>
+      Enter the name of your company below:
+    </p>
+    <input id="companyNameInput" type="text" name="companyName" placeholder="ACME, Inc" value="{{getCompanyName}}" class="fullwidth">
+
+    {{> hipaaPolicyMenu }}
+
+    <h2 id="whatIsSection">Get the Code</h2>
+    <hr>
+    <p>
+      <a href="http://github.com/awatson1978/clinical-hipaa">clinical:hipaa</a><br>
+      <a href="http://github.com/awatson1978/clinical-hipaa-policies">clinical:hipaa-policies</a><br>
+      <a href="http://github.com/awatson1978/clinical-hipaa-routes">clinical:hipaa-route</a>
+      <br><br>
+      <a href="http://clinical.meteor.com">clinical.meteor.com</a>
+
+    </p>
+  </div>
+</template>
