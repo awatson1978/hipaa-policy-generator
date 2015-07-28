@@ -16,20 +16,23 @@
       HIPAA is a lot more than a set of technologies.  Nearly half of HIPAA is about the policies and procedures that a company uses.  So, if we want to encourage Meteor as a framework for healthcare, clinical, and biomedical apps; it's not enough to simply create packages for user accounts, roles, audit logs, and disk security.  We also need to get the right policies and procedures into the hands of developers and startups.
     </p>
 
-    <h2 id="whatIsSection">Where Did These Policies Come From?</h2>
-    <hr>
-    <p>
-      HIPAA is a lot more than a set of technologies.  Nearly half of HIPAA is about the policies and procedures that a company uses.  So, if we want to encourage Meteor as a framework for healthcare, clinical, and biomedical apps; it's not enough to simply create packages for user accounts, roles, audit logs, and disk security.  We also need to get the right policies and procedures into the hands of developers and startups.
-    </p>
-
     <h2 id="whatIsSection">Lets Generate Some Policies</h2>
     <hr>
     <p>
       Enter the name of your company below:
     </p>
-    <input id="companyNameInput" type="text" name="companyName" placeholder="ACME, Inc" value="{{getCompanyName}}" class="fullwidth">
+    <input id="companyNameInput" type="text" name="companyName" placeholder="ACME Medical" value="{{getCompanyName}}" class="fullwidth">
 
+  </div>
+  <div id="pageReveal" class="partial-page reveal {{getRevealVisibility}}">
     {{> hipaaPolicyMenu }}
+  </div>
+  <div id="getTheCode" class="partial-page">
+    <h2 id="whatIsSection">Where Did These Policies Come From?</h2>
+    <hr>
+    <p>
+      From the good folks at <a href="https://github.com/catalyzeio/policies">Catalyze.io</a>
+    </p>
 
     <h2 id="whatIsSection">Get the Code</h2>
     <hr>

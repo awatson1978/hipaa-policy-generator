@@ -1,7 +1,7 @@
 Session.set("resize", null);
 Session.setDefault('appHeight', $(window).height());
 Session.setDefault('appWidth', $(window).width());
-Session.setDefault("glassOpacity", .95);
+Session.setDefault("glassOpacity", .96);
 
 
 
@@ -11,7 +11,7 @@ Meteor.startup(function () {
     Session.set("appHeight", $(window).height());
     Session.set("appWidth", $(window).width());
   });
-  Session.set("companyName", "ACME Medical");
+  Session.set("companyName", "");
 });
 
 
